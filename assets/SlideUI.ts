@@ -18,6 +18,7 @@ export default class SlideUI extends cc.Component {
   nodeGetReward: cc.Node = null;
 
   protected onLoad(): void {
+    this.fresh();
     cc.game.on(cc.game.EVENT_SHOW, this.fresh, this);
   }
   protected onDestroy(): void {
@@ -30,6 +31,8 @@ export default class SlideUI extends cc.Component {
     tt.navigateToScene({ scene: "sidebar" })
   }
   onGetReward() {
+    this.node.destroy();
+    cc.director.emit("onGetEntryReward");
     console.log("领取奖励")
   }
   fresh() {
@@ -47,6 +50,9 @@ export default class SlideUI extends cc.Component {
   }
   start() {
 
+  }
+  onCloseUI() {
+    this.node.destroy();
   }
 
 }

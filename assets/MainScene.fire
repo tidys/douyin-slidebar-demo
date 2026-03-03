@@ -683,8 +683,9 @@
       "__id__": 2
     },
     "_enabled": true,
-    "nodeEntryReward": null,
-    "prefabSlideUI": null,
+    "prefabSlideUI": {
+      "__uuid__": "d51887a5-0de6-458b-8db2-dfdfe4252f43"
+    },
     "_id": "0cr9bt/iFBZ4p6od9qL3df"
   }
 ]
