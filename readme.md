@@ -18,5 +18,7 @@
 1. 下载安装[抖音侧边栏插件](https://store.cocos.com/app/detail/7875)。
 2. 将本demo的相关代码移植到你的游戏项目中。
 3. 构建抖音小游戏。
+     
      ![alt text](doc/build.png)
+
 4. 有偿提供技术支持，作者 QQ 774177933     
