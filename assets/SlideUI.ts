@@ -39,7 +39,7 @@ export default class SlideUI extends cc.Component {
     this.nodeGetReward.active = false;
     this.nodeGoSlide.active = false;
     if (!isInstallByteDancePlugin()) {
-      console.log("请安装抖音侧边栏插件");
+      console.log("请安装抖音侧边栏插件: ", "https://store.cocos.com/app/detail/7875");
       return;
     }
     if (isFromSlidebar()) {
